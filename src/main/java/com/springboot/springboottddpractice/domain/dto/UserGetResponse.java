@@ -6,6 +6,7 @@ import lombok.Getter;
 
 @Getter
 @Builder
+@AllArgsConstructor
 public class UserGetResponse {
     private Long id;
     private String username;
