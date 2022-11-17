@@ -7,7 +7,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @Getter
-//@AllArgsConstructor
+@AllArgsConstructor
 @Builder
 public class UserRequest {
     String username;
